@@ -48,5 +48,22 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>CFBundleURLTypes</key>
+  <array>
+    <dict>
+      <key>CFBundleURLTypes</key>
+<array>
+  <dict>
+    <key>CFBundleURLName</key>
+    <string>com.historicalPlaces.app</string> <!-- Update this to your app's identifier -->
+    <key>CFBundleURLSchemes</key>
+    <array>
+      <string>myapp</string>
+      <string>historicalPlaces.com</string> <!-- Use your actual URL here -->
+    </array>
+  </dict>
+</array>
+    </dict>
+  </array>
 </dict>
 </plist>
